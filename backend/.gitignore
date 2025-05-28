@@ -1,0 +1,4 @@
+git rm -r --cached node_modules uploads
+git add .gitignore
+git commit -m "添加 .gitignore，忽略 node_modules 和 uploads"
+git push
